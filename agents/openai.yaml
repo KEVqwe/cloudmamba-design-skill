@@ -1,0 +1,4 @@
+interface:
+  display_name: "云曼巴设计语言"
+  short_description: "复用云曼巴的配色、字体、标志、吉祥物与版式，制作官网、业务界面和品牌物料"
+  default_prompt: "使用 $cloudmamba-design，为云曼巴设计保持品牌一致的页面或物料。"

@@ -1,0 +1,25 @@
+/* Cloud Mamba tokens. Load licensed fonts in the consuming project. */
+:root {
+  --cm-cream: #F3ECDF;
+  --cm-paper: #FAF6EE;
+  --cm-ink: #1C1A17;
+  --cm-ink-2: #3B352C;
+  --cm-muted: #5A544B;
+  --cm-line: #D9CFBE;
+  --cm-blue: #4C74B9;
+  --cm-blue-deep: #3A5E9E;
+  --cm-yellow: #F1C543;
+  --cm-red: #C23B1E;
+  --cm-pink: #EFA3B3;
+  --cm-green: #3E9A5E;
+  --cm-plum: #8A2350;
+  --cm-font-display: "Noto Serif SC", "Songti SC", "STSong", "Source Han Serif SC", serif;
+  --cm-font-latin: "Alfa Slab One", "Rockwell", Georgia, serif;
+  --cm-font-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --cm-content-max: 1200px;
+  --cm-gutter: 24px;
+  --cm-radius-display: 14px;
+  --cm-radius-ui: 3px;
+  --cm-border-ui: 2px;
+  --cm-shadow-ui: 2px 2px 0 var(--cm-ink);
+}
