@@ -1,0 +1,20 @@
+{
+  "retrieved": "2026-11-10",
+  "sourceRepository": "https://github.com/google/fonts",
+  "files": [
+    {
+      "file": "NotoSerifSC.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+      "bytes": 25125512,
+      "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+      "modified": false
+    },
+    {
+      "file": "AlfaSlabOne-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alfaslabone/AlfaSlabOne-Regular.ttf",
+      "bytes": 97376,
+      "sha256": "28664afa698a3393bd5a29eec750230a0645c5301d62200e5f2d3a027fb2299d",
+      "modified": false
+    }
+  ]
+}

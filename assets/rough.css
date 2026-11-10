@@ -1,0 +1,19 @@
+/* Requires the inline SVG definitions in motifs/rough-filters.svg. */
+.cm-filter-defs { position: absolute; width: 0; height: 0; overflow: visible; pointer-events: none; }
+.cm-rough-shape { filter: url(#cm-rough); }
+.cm-rough-type { filter: url(#cm-roughtext); }
+.cm-rough-lite { filter: url(#cm-roughlite); }
+.cm-rule { height: 7px; margin: 0; border: 0; background: var(--cm-ink); filter: url(#cm-rough); }
+.cm-paper-tag { position: relative; isolation: isolate; display: inline-block; padding: 12px 22px; }
+.cm-paper-tag::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--cm-yellow); filter: url(#cm-rough); }
+.cm-paper-tag > span { position: relative; display: inline-block; font-family: var(--cm-font-display); font-weight: 900; }
+.cm-window { --cm-shell-inset: 14px; position: relative; isolation: isolate; padding: var(--cm-shell-inset); border: 0; box-shadow: none; transform: none; }
+.cm-window::before { content: ""; position: absolute; inset: 0; border-radius: 18px; background: var(--cm-ink); filter: url(#cm-rough); z-index: -1; }
+.cm-window-inner { background: var(--cm-cream); border-radius: 8px; padding: 16px 18px 18px; }
+.cm-window-dots { display: flex; gap: 10px; margin-bottom: 14px; }
+.cm-window-dots i { width: 24px; height: 24px; border-radius: 50%; background: var(--cm-red); filter: url(#cm-rough); }
+.cm-window-dots i:nth-child(2) { background: var(--cm-yellow); }
+.cm-window-dots i:nth-child(3) { background: var(--cm-blue); }
+@media (max-width: 600px) {
+  :where(body:not(.cm-fixed-canvas)) .cm-brand-caption.cm-rough-type { filter: url(#cm-roughlite); }
+}

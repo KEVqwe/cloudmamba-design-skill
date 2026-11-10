@@ -1,4 +1,4 @@
-/* Cloud Mamba tokens. Load licensed fonts in the consuming project. */
+/* Cloud Mamba tokens. Load fonts.css to use bundled original fonts. */
 :root {
   --cm-cream: #F3ECDF;
   --cm-paper: #FAF6EE;
@@ -13,8 +13,8 @@
   --cm-pink: #EFA3B3;
   --cm-green: #3E9A5E;
   --cm-plum: #8A2350;
-  --cm-font-display: "Noto Serif SC", "Songti SC", "STSong", "Source Han Serif SC", serif;
-  --cm-font-latin: "Alfa Slab One", "Rockwell", Georgia, serif;
+  --cm-font-display: "CM Noto Serif SC", "Noto Serif SC", "Songti SC", "STSong", "Source Han Serif SC", serif;
+  --cm-font-latin: "CM Alfa Slab One", "Alfa Slab One", "Rockwell", Georgia, serif;
   --cm-font-body: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
   --cm-content-max: 1200px;
   --cm-gutter: 24px;

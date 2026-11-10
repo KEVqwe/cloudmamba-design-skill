@@ -1,0 +1,15 @@
+/* Unmodified upstream fonts. Keep the OFL notices in fonts/ when redistributing. */
+@font-face {
+  font-family: "CM Noto Serif SC";
+  src: url("fonts/NotoSerifSC.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CM Alfa Slab One";
+  src: url("fonts/AlfaSlabOne-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
